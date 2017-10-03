@@ -4,7 +4,7 @@
 ```
 docker build -t friendlyname .
 ```
-* Lance `friendlyname` en le port 4000 vers 80
+* Lance `friendlyname` en mappant le port 4000 vers 80
 ```
 docker run -p 4000:80 friendlyname
 ```
